@@ -1,0 +1,363 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <rdf:Description rdf:about="http://arxiv.org/abs/2308.07329">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Buramdoyal</foaf:surname>
+                        <foaf:givenName>Avish</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gebbie</foaf:surname>
+                        <foaf:givenName>Tim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_116"/>
+        <link:link rdf:resource="#item_117"/>
+        <link:link rdf:resource="#item_118"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Quantitative Finance - Trading and Market Microstructure</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Variations on the Reinforcement Learning performance of Blackjack</dc:title>
+        <dcterms:abstract>Blackjack or &quot;21&quot; is a popular card-based game of chance and skill. The objective of the game is to win by obtaining a hand total higher than the dealer's without exceeding 21. The ideal blackjack strategy will maximize financial return in the long run while avoiding gambler's ruin. The stochastic environment and inherent reward structure of blackjack presents an appealing problem to better understand reinforcement learning agents in the presence of environment variations. Here we consider a q-learning solution for optimal play and investigate the rate of learning convergence of the algorithm as a function of deck size. A blackjack simulator allowing for universal blackjack rules is also implemented to demonstrate the extent to which a card counter perfectly using the basic strategy and hi-lo system can bring the house to bankruptcy and how environment variations impact this outcome. The novelty of our work is to place this conceptual understanding of the impact of deck size in the context of learning agent convergence.</dcterms:abstract>
+        <dc:date>2023-08-09</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2308.07329</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-19 08:36:56</dcterms:dateSubmitted>
+        <dc:description>arXiv:2308.07329 [cs, q-fin]</dc:description>
+        <prism:number>arXiv:2308.07329</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_116">
+       <rdf:value>Comment: 12 pages, 15 figures, 7 tables</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_117">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/117/2308.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2308.07329</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-19 08:37:01</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_118">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/118/Buramdoyal and Gebbie - 2023 - Variations on the Reinforcement Learning performan.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2308.07329.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-19 08:37:03</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_120">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vos</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sabatelli</foaf:surname>
+                        <foaf:givenName>Dr M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_119"/>
+        <dc:title>Reinforcement Learning and Evolutionary algorithms in the Stochastic Environment of Blackjack</dc:title>
+        <dcterms:abstract>The casino game blackjack requires player’s actions to play. These actions have an optimal strategy which we learn with two different reinforcement learning (RL) algorithms (Qlearning and QV-learning) and 2 different evolutionary algorithms (genetic algorithm (GA) and particle swarm optimization (PSO)). The maximum win rate for blackjack is around 42,5%, and our best performing algorithm (QV-learning) achieved a 42,47% win rate with the best exploration policy. Q-learning and GA both achieved a 42,30% win rate with their best strategies. Whereas PSO performed badly only achieving 21.2% which indicates it is not suited for the problem.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_119">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/119/Vos and Sabatelli - Reinforcement Learning and Evolutionary algorithms.pdf"/>
+        <dc:title>Vos and Sabatelli - Reinforcement Learning and Evolutionary algorithms.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fse.studenttheses.ub.rug.nl/27515/1/BachelorThesiss3162443ThomasVos.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-19 09:09:14</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_122">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Ziang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Spil</foaf:surname>
+                        <foaf:givenName>Gabriel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_121"/>
+        <dc:title>Learning Explainable Policy For Playing Blackjack Using Deep Reinforcement Learning (Reinforcement Learning)</dc:title>
+        <dcterms:abstract>Our attempt was to learn an optimal Blackjack policy using a Deep Reinforcement Learning model that has full visibility of the state space. We implemented a game simulator and various other models to baseline against. We showed that the Deep Reinforcement Learning model could learn card counting and exceed standard card counting methodologies and achieved a positive average reward (e.g, &quot;beat the house&quot;). We showed the model was explainable and could be used to derive a human-understandable strategy for Blackjack that exceeds current best practices.</dcterms:abstract>
+        <dc:date>2021</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_121">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/121/Liu and Spil - Learning Explainable Policy For Playing Blackjack .pdf"/>
+        <dc:title>Liu and Spil - Learning Explainable Policy For Playing Blackjack .pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://cs230.stanford.edu/projects_fall_2021/reports/103066753.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-19 09:10:31</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_123">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khalkar</foaf:surname>
+                        <foaf:givenName>Rohini</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dhawade</foaf:surname>
+                        <foaf:givenName>Sumukh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Puri</foaf:surname>
+                        <foaf:givenName>Devang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Narang</foaf:surname>
+                        <foaf:givenName>Apoorv</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_125"/>
+        <link:link rdf:resource="#item_124"/>
+        <dc:title>Gaming Bot Using Reinforcement Learning</dc:title>
+        <dcterms:abstract>Because of its widespread use in a variety of game genres and its ability to simulate human-like behaviour, intelligent agent training has piqued the interest of the gaming industry. In this paper, two machine learning techniques, namely a reinforcement learning approach and an Artificial Neural Network (ANN), are used in a fighting game to allow the agent/fighter to simulate a human player. We propose a customised reward function capable of incorporating specific human-like behaviours into the agent for the reinforcement learning technique. A human player's recorded bouts are used to educate the ANN. The proposed methods are compared to two previously published reinforcement learning methods. Furthermore, we provide a comprehensive overview of the empirical assessments, including the training procedure and the primary characteristics of each approach used. When compared to other current approaches, the testing results revealed that the proposed methods outperform human players and are more enjoyable to play against.</dcterms:abstract>
+        <dc:date>2023-06-15</dc:date>
+        <z:libraryCatalog>ResearchGate</z:libraryCatalog>
+        <bib:pages>2395-0056</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_125">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/125/Khalkar et al. - 2023 - GAMING BOT USING REINFORCEMENT LEARNING.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/profile/Rohini-Khalkar/publication/371576740_GAMING_BOT_USING_REINFORCEMENT_LEARNING/links/648ae5fc7fcc811dcdceee60/GAMING-BOT-USING-REINFORCEMENT-LEARNING.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-19 09:11:34</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_124">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>ResearchGate Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/profile/Rohini-Khalkar/publication/371576740_GAMING_BOT_USING_REINFORCEMENT_LEARNING/links/648ae5fc7fcc811dcdceee60/GAMING-BOT-USING-REINFORCEMENT-LEARNING.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-19 09:11:32</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-0-262-03924-6">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Adaptive computation and machine learning series</dc:title>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cambridge, Massachusetts</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>The MIT Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sutton</foaf:surname>
+                        <foaf:givenName>Richard S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barto</foaf:surname>
+                        <foaf:givenName>Andrew G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_126"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Reinforcement learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Reinforcement learning: an introduction</dc:title>
+        <dcterms:abstract>&quot;Reinforcement learning, one of the most active research areas in artificial intelligence, is a computational approach to learning whereby an agent tries to maximize the total amount of reward it receives while interacting with a complex, uncertain environment. In Reinforcement Learning, Richard Sutton and Andrew Barto provide a clear and simple account of the field's key ideas and algorithms.&quot;--</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Reinforcement learning</z:shortTitle>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>Q325.6 .R45 2018</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:identifier>ISBN 978-0-262-03924-6</dc:identifier>
+        <prism:edition>Second edition</prism:edition>
+        <z:numPages>526</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_126">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/126/Sutton and Barto - 2018 - Reinforcement learning an introduction.pdf"/>
+        <dc:title>Sutton and Barto - 2018 - Reinforcement learning an introduction.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_139">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/139/6940282.pdf"/>
+        <dc:title>6940282.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://cs230.stanford.edu/files_winter_2018/projects/6940282.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 09:32:16</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://direct.mit.edu/evco/article/10/2/99-127/1123">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1063-6560,%201530-9304"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stanley</foaf:surname>
+                        <foaf:givenName>Kenneth O.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miikkulainen</foaf:surname>
+                        <foaf:givenName>Risto</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_164"/>
+        <dc:title>Evolving Neural Networks through Augmenting Topologies</dc:title>
+        <dcterms:abstract>An important question in neuroevolution is how to gain an advantage from evolving neural network topologies along with weights. We present a method, NeuroEvolution of Augmenting Topologies (NEAT), which outperforms the best ﬁxed-topology method on a challenging benchmark reinforcement learning task. We claim that the increased efﬁciency is due to (1) employing a principled method of crossover of different topologies, (2) protecting structural innovation using speciation, and (3) incrementally growing from minimal structure. We test this claim through a series of ablation studies that demonstrate that each component is necessary to the system as a whole and to each other. What results is signiﬁcantly faster learning. NEAT is also an important contribution to GAs because it shows how it is possible for evolution to both optimize and complexify solutions simultaneously, offering the possibility of evolving increasingly complex solutions over generations, and strengthening the analogy with biological evolution.</dcterms:abstract>
+        <dc:date>06/2002</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://direct.mit.edu/evco/article/10/2/99-127/1123</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-27 13:06:48</dcterms:dateSubmitted>
+        <bib:pages>99-127</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1063-6560,%201530-9304">
+        <prism:volume>10</prism:volume>
+        <dc:title>Evolutionary Computation</dc:title>
+        <dc:identifier>DOI 10.1162/106365602320169811</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Evolutionary Computation</dcterms:alternative>
+        <dc:identifier>ISSN 1063-6560, 1530-9304</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_164">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/164/Stanley and Miikkulainen - 2002 - Evolving Neural Networks through Augmenting Topolo.pdf"/>
+        <dc:title>Stanley and Miikkulainen - 2002 - Evolving Neural Networks through Augmenting Topolo.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-27 13:06:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
