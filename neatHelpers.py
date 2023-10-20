@@ -8,7 +8,10 @@ import seaborn as sns
 from blackjackenv import BlackjackEnv
 import neat
 
+#Hyperparameters
 genome_rounds = 2000
+hit_bonus = 0
+
 def eval_action(action):
     if action[0] > 0.5:
         return 1
@@ -32,7 +35,7 @@ def eval_genome(genome, config):
 
             # if agent did hit give a bonus to the reward
             if agent_action == 1:
-                hitMultiplier += 0.5
+                hitMultiplier += hit_bonus
 
             next_state, reward, terminated, truncated, info = env.step(agent_action)
 
