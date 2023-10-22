@@ -1,5 +1,6 @@
 from blackjackenv import BlackjackEnv
 from collections import defaultdict
+from typing import Optional
 
 import numpy as np
 
@@ -15,7 +16,7 @@ class QAgent:
             epsilon_decay: float,
             final_epsilon: float,
             gamma: float,  # discount factor
-            exp_policy: str = "e_greedy",  # greedy, e_greedy, softmax
+            exp_policy: Optional[str] = "e_greedy",  # greedy, e_greedy, softmax
     ):
 
         self.q_values = defaultdict(lambda: np.zeros(env.action_space.n))
