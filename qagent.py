@@ -10,12 +10,12 @@ env = BlackjackEnv(sab=True)
 class QAgent:
     def __init__(
             self,
-            exp_policy: str,  # greedy, e_greedy, softmax
             alpha: float,  # learning rate
             initial_epsilon: float,
             epsilon_decay: float,
             final_epsilon: float,
             gamma: float,  # discount factor
+            exp_policy: str = "e_greedy",  # greedy, e_greedy, softmax
     ):
 
         self.q_values = defaultdict(lambda: np.zeros(env.action_space.n))
