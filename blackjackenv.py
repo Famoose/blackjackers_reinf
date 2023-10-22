@@ -149,7 +149,8 @@ class BlackjackEnv(gym.Env):
         "render_fps": 4,
     }
 
-    def __init__(self, render_mode: Optional[str] = None, natural=False, sab=False):
+    def __init__(self, render_mode: Optional[str] = None, natural=False, sab=False,
+                 win_reward=1.0, lose_reward=-1.0, hit_reward=0.0, nat_reward=1.5):
         self.action_space = spaces.Discrete(2)
         self.observation_space = spaces.Tuple(
             (spaces.Discrete(32), spaces.Discrete(11), spaces.Discrete(2))
@@ -164,32 +165,39 @@ class BlackjackEnv(gym.Env):
 
         self.render_mode = render_mode
 
+        # set rewards
+        self.win_reward = win_reward
+        self.lose_reward = lose_reward
+        self.hit_reward = hit_reward
+        self.nat_reward = nat_reward
+
     def step(self, action):
         assert self.action_space.contains(action)
         if action:  # hit: add a card to players hand and return
             self.player.append(draw_card(self.np_random))
             if is_bust(self.player):
                 terminated = True
-                reward = -1.0
+                reward = self.lose_reward
             else:
                 terminated = False
-                reward = 0.0
+                reward = self.hit_reward
         else:  # stick: play out the dealers hand, and score
             terminated = True
             while sum_hand(self.dealer) < 17:
                 self.dealer.append(draw_card(self.np_random))
+            # gleicher Wert = Reward von 0.0
             reward = cmp(score(self.player), score(self.dealer))
             if self.sab and is_natural(self.player) and not is_natural(self.dealer):
                 # Player automatically wins. Rules consistent with S&B
-                reward = 1.0
+                reward = self.win_reward
             elif (
                 not self.sab
                 and self.natural
                 and is_natural(self.player)
-                and reward == 1.0
+                and reward == self.win_reward
             ):
                 # Natural gives extra points, but doesn't autowin. Legacy implementation
-                reward = 1.5
+                reward = self.nat_reward
 
         if self.render_mode == "human":
             self.render()
