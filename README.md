@@ -11,4 +11,16 @@ python -m pip install tensorflow-metal
 
 ```
 
-```python
+To run the neat visualizer you need to install graphviz
+On mac:
+```bash
+brew install graphviz
+```
+On linux:
+```bash
+sudo apt-get install graphviz
+```
+On windows:
+```bash
+download from https://graphviz.org/download/
+```
