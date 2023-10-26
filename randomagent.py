@@ -10,7 +10,6 @@ class RandomAgent:
 
 
 def playNTimes(env, agent, N):
-    from tqdm import tqdm
 
     env = gymnasium.wrappers.RecordEpisodeStatistics(env, deque_size=N)
 
