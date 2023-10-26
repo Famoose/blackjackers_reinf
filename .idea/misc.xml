@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="blackjackers_reinf" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="blackjackers_reinf" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (blackjackers_reinf)" project-jdk-type="Python SDK" />
 </project>
