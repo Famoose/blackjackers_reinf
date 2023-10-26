@@ -8,9 +8,10 @@ import seaborn as sns
 from blackjackenv import BlackjackEnv
 import neat
 
-#Hyperparameters
+# Hyperparameters
 genome_rounds = 2000
 hit_bonus = 0
+
 
 def eval_action(action):
     if action[0] > 0.5:
@@ -61,6 +62,7 @@ class Worker(object):
 def eval_genomes(genome, config):
     w = Worker(genome, config)
     return w.work()
+
 
 def create_grids(genome, config, usable_ace=False):
     """Create policy grid given an agent."""
