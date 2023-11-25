@@ -9,7 +9,7 @@ from blackjackenv import BlackjackEnv
 import neat
 
 # Hyperparameters
-genome_rounds = 2000
+genome_rounds = 100000
 hit_bonus = 0
 
 
