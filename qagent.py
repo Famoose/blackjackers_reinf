@@ -1,6 +1,7 @@
 from blackjackenv import BlackjackEnv
 from collections import defaultdict
 from typing import Optional
+from matplotlib import pyplot as plt
 
 import numpy as np
 
